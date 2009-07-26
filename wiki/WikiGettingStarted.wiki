@@ -1,13 +1,12 @@
 #labels Phase-Deploy,Phase-Implementation,Featured
 ===1. Search local movies:===
  * *Request* 
-  * uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0
-  * parameters
- * Return:
+  * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0
+  * Parameters
+ * *Return*
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
-<movie>
-  <name>%28500%29+Days+of+Summer~Achchamundu%2C+Achchamundu~Aiyantham+Padai~...~Up~Up+in+Disney+Digital+3D~</name>
+<movie>  <name>%28500%29+Days+of+Summer~Achchamundu%2C+Achchamundu~Aiyantham+Padai~...~Up~Up+in+Disney+Digital+3D~</name>
   <duration>1hr 35min~2hr 15min~2hr 55min~...~1hr 36min~</duration>
   <image>http://ia.media-imdb.com/images/M/MV5BMjAzNDI4MTAxOV5BMl5BanBnXkFtZTcwMjM2Njg0Mg@@._V1._SX91_SY140_.jpg~~~..~~~</image>
   <android_trailer_url>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</android_trailer_url>
@@ -22,7 +21,9 @@
 }}}
 
 ===2. Search movie's detail info:===
- * *Request* http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
+ * *Request* 
+  * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
+  * Parameters
  * *Return*
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -36,8 +37,10 @@
 }}}
 
 ===3. Search showtimes in local theaters===
- * Request: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
- * Return:
+ * *Request*
+  * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
+  * Parameters
+ * *Return*
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
