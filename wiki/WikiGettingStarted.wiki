@@ -1,8 +1,5 @@
 #labels Phase-Deploy,Phase-Implementation,Featured
-==Gettting Started==
-===Using Firefox to open belows URIs:===
-
- # List local movies: 
+ # List local movies:
  * Request: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0
  * Return:
 {{{
