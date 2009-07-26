@@ -1,5 +1,5 @@
 #labels Phase-Deploy,Phase-Implementation,Featured
- # List local movies:
+===1. Search local movies:===
  * Request: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0
  * Return:
 {{{
@@ -18,3 +18,29 @@
   <response>2.038459</response>
 </movie>
 }}}
+
+===2. Search movie's detail info:===
+ * *Request* http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
+ * *Return*
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<plot>Harvard+symbologist+Robert+Langdon+works+to+solve+a+murder+and+prevent+a+terrorist+act+against+the+Vatican.+</plot>
+  <cover_image_url>http://ia.media-imdb.com/images/M/MV5BMjEzNzM2MjgxMF5BMl5BanBnXkFtZTcwNTQ1MTM0Mg@@._V1._SX94_SY140_.jpg</cover_image_url>
+  <imdb_rating>3.45</imdb_rating>
+  <release_date>1242370800</release_date>
+  <response>0.001543</response>
+</data>
+}}}
+
+===3. Search showtimes in local theaters===
+ * Request: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
+ * Return:
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <theaters>0_Camera+7_1875+S.+Bascom+Avenue%2C+Campbell%2C+CA+~</theaters>
+  <showtimes>0_11:10am_~0_1:35_~0_4:10_~0_6:30_~0_8:55pm_~</showtimes>
+  <response>0.219433</response>
+</data>
+}}} 
