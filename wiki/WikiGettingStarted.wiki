@@ -1,7 +1,7 @@
 #labels Phase-Deploy,Phase-Implementation,Featured
-===1. Search local movies:===
- * *Request* 
-  * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0 (more detail)
+===1. Search local movies=== (detail)
+ * *Request*  
+  * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0 
  * *Return*
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
@@ -19,7 +19,7 @@
 </movie>
 }}}
 
-===2. Search movie's detail info:===
+===2. Search movie's detail info=== (detail)
  * *Request* 
   * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
   * Parameters
@@ -35,7 +35,7 @@
 </data>
 }}}
 
-===3. Search showtimes in local theaters===
+===3. Search showtimes in local theaters=== (detail)
  * *Request*
   * Uri: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
   * Parameters
