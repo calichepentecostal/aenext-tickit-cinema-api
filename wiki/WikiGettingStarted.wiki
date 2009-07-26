@@ -1,0 +1,23 @@
+#labels Phase-Deploy,Phase-Implementation,Featured
+==Gettting Started==
+===Using Firefox to open belows URIs:===
+
+ # List local movies: 
+ * Request: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0
+ * Return:
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<movie>
+  <name>%28500%29+Days+of+Summer~Achchamundu%2C+Achchamundu~Aiyantham+Padai~...~Up~Up+in+Disney+Digital+3D~</name>
+  <duration>1hr 35min~2hr 15min~2hr 55min~...~1hr 36min~</duration>
+  <image>http://ia.media-imdb.com/images/M/MV5BMjAzNDI4MTAxOV5BMl5BanBnXkFtZTcwMjM2Njg0Mg@@._V1._SX91_SY140_.jpg~~~..~~~</image>
+  <android_trailer_url>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</android_trailer_url>
+  <iphone_trailer_url>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</iphone_trailer_url>
+  <standard_rating>Rated PG-13~~~...~Rated PG~</standard_rating>
+  <imdb_rating>4.2~~~3.95~3.55~~...~3.15~4.4~~</imdb_rating>
+  <release_date>1252047600~0~0~1245999600~...~1243580400~0~</release_date>
+  <mid>ee8fce9ce582a372~70bfde1272fbf24c~...~428cbf23959eb8f4~b75ae86c5f5ecd97~</mid>
+  <genre>Drama~~~Comedy~Comedy~~...~Animation/Action/Adventure/Comedy~</genre>
+  <response>2.038459</response>
+</movie>
+}}}
