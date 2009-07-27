@@ -75,4 +75,4 @@
   * Details
    * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item theater is theater_id, theater_name and address separated by "_".
    * `<showtimes>` List showtimes 
-   * `<respone> Request response time used for cloud benchmark purpose.
+   * `<respone>` Request response time used for cloud benchmark purpose.
