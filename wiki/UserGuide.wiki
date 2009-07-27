@@ -40,7 +40,7 @@
 
 ===2. Search movie's detail info===
  * *Request* 
-  * http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
+  * Ex: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
   * Parameters:
     * "mid": Movie ID provided by Movie List request.
  * *Return*
@@ -64,7 +64,7 @@
 
 ===3. Search showtimes in local theaters===
  * *Request*
-  * http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
+  * Ex: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
   * Parameters:
     * "mid": Movie ID provided by Movie List request.
     * "location" & "date_offset: Similar to the Movie List request.
