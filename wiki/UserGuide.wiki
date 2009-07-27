@@ -34,12 +34,15 @@
    * `<image>` Movie art work image url with thumbnail format (91x140 pixel),separated by "~".
    * `<imdb_rating>` Movie rating from imdb, minimum 0, maximum 5, separated by "~".
    * `<release_date>` Movie release date is an integer number of seconds since [http://en.wikipedia.org/wiki/Unix_time epoch].
+   * `<mid>` Movie ID string.
    * `<genres>` Movie genre, each movie separated by "~" character. Movie with multiple genres is separated by "/" character.
    * `<respone>` Request response time used for cloud benchmark purpose.
 
 ===2. Search movie's detail info===
  * *Request* 
   * http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
+  * Parameters:
+    * "mid": Movie ID provided movie list request.
  * *Return*
   * XML
 {{{
@@ -62,6 +65,9 @@
 ===3. Search showtimes in local theaters===
  * *Request*
   * http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
+  * Parameters:
+    * "mid": Movie ID provided movie list request.
+    * "location" & "date_offset: Similar to the Movie List request.
  * *Return*
   * XML
 {{{
