@@ -73,11 +73,11 @@
 </data>
 }}} 
   * Details
-   * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item is(Separated by "`_`" character):
+   * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item is (separated by "`_`" character):
     * Theater's id
     * Theater's name (UTF-8 encoded)
     * Theater's address (UTF-8 encoded)
-   * `<showtimes>` List show-times for all listed theaters. Separated by "~". Inside each show-time item is(Separated by "`_`" character):
+   * `<showtimes>` List show-times for all listed theaters. Separated by "~". Inside each show-time item is (separated by "`_`" character):
     * Theater's id
     * Show-Time
     * Ticket's URL (if available)    
