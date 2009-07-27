@@ -75,8 +75,8 @@
   * Details
    * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item is:
     * Theater's id
-    * Theater's name
-    * Theater's address 
+    * Theater's name (UTF-8 encoded)
+    * Theater's address (UTF-8 encoded)
     Separated by "`_`" character.
 
    * `<showtimes>` List show-times for all listed theaters. Separated by "~". Inside each show-time item is:
