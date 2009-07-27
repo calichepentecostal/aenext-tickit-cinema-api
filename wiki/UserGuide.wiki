@@ -80,8 +80,8 @@
     Separated by "`_`" character.
 
    * `<showtimes>` List show-times for all listed theaters. Separated by "~". Inside each show-time item is:
-    * theater_id
-    * time
-    * ticket URL (if available)
+    * Theater's id
+    * Show-Time
+    * Ticket's URL (if available)
     Separated by "`_`" character.
    * `<respone>` Request response time used for cloud benchmark purpose.
