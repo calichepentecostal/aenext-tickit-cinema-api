@@ -73,6 +73,15 @@
 </data>
 }}} 
   * Details
-   * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item theater is theater_id, theater_name and address separated by "_".
-   * `<showtimes>` List showtimes 
+   * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item is:
+    * Theater's id
+    * Theater's name
+    * Theater's address 
+    Separated by "`_`" character.
+
+   * `<showtimes>` List show-times for all listed theaters. Separated by "~". Inside each show-time item is:
+    * theater_id
+    * time
+    * ticket URL (if available)
+    Separated by "`_`" character.
    * `<respone>` Request response time used for cloud benchmark purpose.
