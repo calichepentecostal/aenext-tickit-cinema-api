@@ -33,7 +33,7 @@
    * `<duration>` Movie duration. Each item is separated by "~" character.
    * `<image>` Movie art work image url with thumbnail format (91x140 pixel),separated by "~".
    * `<imdb_rating>` Movie rating from imdb, minimum 0, maximum 5, separated by "~".
-   * `<release_date>`   
+   * `<release_date>` Movie release date is an integer number of seconds since [http://en.wikipedia.org/wiki/Unix_time epoch].
 
 
 ===2. Search movie's detail info===
