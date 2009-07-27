@@ -34,12 +34,14 @@
    * `<image>` Movie art work image url with thumbnail format (91x140 pixel),separated by "~".
    * `<imdb_rating>` Movie rating from imdb, minimum 0, maximum 5, separated by "~".
    * `<release_date>` Movie release date is an integer number of seconds since [http://en.wikipedia.org/wiki/Unix_time epoch].
-
+   * `<genres>` Movie genre, each movie separated by "~" character. Movie with multiple genres is separated by "/" character.
+   * `<respone>` Request response time used for cloud benchmark purpose.
 
 ===2. Search movie's detail info===
  * *Request* 
   * http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
  * *Return*
+  * XML
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
@@ -50,11 +52,18 @@
   <response>0.001543</response>
 </data>
 }}}
+  * Details
+   * `<plot>` Movie plot string, UTF-8 encoded.
+   * `<cover_image_url>` Movie art work image url with thumbnail format (91x140 pixel),separated by "~".
+   * `<imdb_rating>` Movie rating from imdb, minimum 0, maximum 5, separated by "~".
+   * `<release_date>` Movie release date is an integer number of seconds since [http://en.wikipedia.org/wiki/Unix_time epoch].
+   * `<respone> Request response time used for cloud benchmark purpose.
 
 ===3. Search showtimes in local theaters===
  * *Request*
   * http://aenext.dyndns.info:2081/tickit_cinema_requests/request_theaters_showtimes?mid=b75ae86c5f5ecd97&location=95131&date_offset=0
  * *Return*
+  * XML
 {{{
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
@@ -63,3 +72,7 @@
   <response>0.219433</response>
 </data>
 }}} 
+  * Details
+   * `<theaters>` List theaters by ascending distance. Theater separated by "~". Inside each theater item theater is theater_id, theater_name and address separated by "_".
+   * `<showtimes>` List showtimes 
+   * `<respone> Request response time used for cloud benchmark purpose.
