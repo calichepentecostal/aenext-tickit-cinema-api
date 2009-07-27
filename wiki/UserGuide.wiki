@@ -29,11 +29,11 @@
 </movie>
 }}}
   * Details
-   * name: _Movie title data is UTF-8 encoded. Each title is separated by "~" character._
-   * duration: _Movie's duration. Each item is separated by "~" character._
-   * image tag: _Movie's art work image url with thumbnail format (91x140 pixel),separated by "~"._
-   * imdb_rating: _Movie rating from imdb, minimum 0, maximum 5, separated by "~"._
-   * release_date:   
+   * `<name>` _Movie title data is UTF-8 encoded. Each title is separated by "~" character._
+   * `<duration>` _Movie's duration. Each item is separated by "~" character._
+   * `<image>` _Movie's art work image url with thumbnail format (91x140 pixel),separated by "~"._
+   * `<imdb_rating>` _Movie rating from imdb, minimum 0, maximum 5, separated by "~"._
+   * `<release_date>`   
 
 
 ===2. Search movie's detail info===
