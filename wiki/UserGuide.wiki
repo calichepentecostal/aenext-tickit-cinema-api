@@ -1,7 +1,7 @@
 #labels Featured,Phase-Implementation,Phase-Support,Phase-Deploy
 ===1. Search local movies===
  * *Request*  
-  * Ex: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0 
+  * Ex: http://aenext.dyndns.info/tickit_cinema_requests/request_movie_list?location=95131&date_offset=0 
   * Parameters
     * "location": Full address, city name/state or zipcode string (support US, UK & Canada).
      * Ex: "95131" or "San Jose, CA"
@@ -40,7 +40,7 @@
 
 ===2. Search movie's detail info===
  * *Request* 
-  * Ex: http://aenext.dyndns.info:2081/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
+  * Ex: http://aenext.dyndns.info/tickit_cinema_requests/request_movie_detail?mid=678a10bb049be882
   * Parameters:
     * "mid": Movie ID provided by Movie List request.
  * *Return*
